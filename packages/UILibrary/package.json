@@ -8,10 +8,16 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@rollup/plugin-typescript": "^8.3.1",
+    "@storybook/addon-a11y": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/addon-storysource": "^6.4.19",
+    "@storybook/react": "^6.4.19",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.40",
+    "babel-loader": "^8.2.3",
     "jest": "^27.5.1",
     "react": "^17.0.2",
     "rollup": "^2.70.0",
@@ -21,6 +27,8 @@
     "build": "rollup -c",
     "dev": "yarn build --watch",
     "test": "jest --verbose",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "start-storybook": "start-storybook -c .storybook",
+    "build-storybook": "build-storybook"
   }
 }
