@@ -14,8 +14,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+     // optional - in general it's a good practice to decouple declaration files from your actual transpiled JavaScript files
+    "declarationDir": "lib/dts"
   },
-  "include": ["src"],
+  "include": ["src", "@tr.p/ui-library"],
   "exclude": ["node_modules", "lib"]
 }
