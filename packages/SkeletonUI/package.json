@@ -18,6 +18,7 @@
     "@types/jest": "^27.4.1",
     "@types/react": "^17.0.40",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.2",
     "jest": "^27.5.1",
     "react": "^17.0.2",
     "rollup": "^2.70.0",
@@ -29,6 +30,10 @@
     "test": "jest --verbose",
     "test:watch": "yarn test --watch",
     "start-storybook": "start-storybook -c .storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token=59aaaf11d87e"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
   }
 }
