@@ -4,13 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0"
   },
   "private": true,
   "workspaces": {
-    "packages" :[
+    "packages": [
       "packages/*",
       "playgrounds/*"
     ]
@@ -24,7 +27,12 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventianal-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
