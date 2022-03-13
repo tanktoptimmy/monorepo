@@ -39,7 +39,7 @@
     "build-storybook": "build-storybook",
     "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\"",
     "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "prettier": "yarn prettier:check --write"
+    "prettier": "yarn prettier --write ."
   },
   "publishConfig": {
     "access": "public"
