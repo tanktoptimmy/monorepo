@@ -1,12 +1,12 @@
 module.exports = {
-  stories: ['../src/**/*.stories.tsx'],
+  stories: ["../src/**/*.stories.tsx"],
   addons: [
-      '@storybook/addon-storysource',
-      '@storybook/addon-knobs',
-      '@storybook/addon-a11y',
-      '@storybook/addon-essentials'
+    "@storybook/addon-storysource",
+    "@storybook/addon-knobs",
+    "@storybook/addon-a11y",
+    "@storybook/addon-essentials",
   ],
-  framework: '@storybook/react',
+  framework: "@storybook/react",
   babel: async (options) => ({
     // Update your babel configuration here
     ...options,
@@ -15,8 +15,5 @@ module.exports = {
     // Make whatever fine-grained changes you need
     // Return the altered config
     return config;
-  }
-}
-
-
-
+  },
+};
