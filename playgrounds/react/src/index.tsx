@@ -2,7 +2,7 @@ import React from "react";
 
 import ReactDOM from "react-dom";
 
-import { Button } from "@tr.p/skeleton-ui"
+import { Button } from "@tt.t/skeleton-ui"
 
 ReactDOM.render(
   <div>

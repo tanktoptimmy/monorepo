@@ -3,3 +3,4 @@ lib
 storybook-static
 .env
 build-storybook.log
+yarn-error.log

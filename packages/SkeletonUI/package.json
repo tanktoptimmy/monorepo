@@ -1,5 +1,5 @@
 {
-  "name": "@tr.p/skeleton-ui",
+  "name": "@tt.t/skeleton-ui",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
@@ -32,8 +32,5 @@
     "start-storybook": "start-storybook -c .storybook",
     "build-storybook": "build-storybook",
     "chromatic": "chromatic --project-token=59aaaf11d87e"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.0"
   }
 }

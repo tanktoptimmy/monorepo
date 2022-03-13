@@ -18,6 +18,6 @@
      // optional - in general it's a good practice to decouple declaration files from your actual transpiled JavaScript files
     "declarationDir": "lib/dts"
   },
-  "include": ["src", "@tr.p/skeleton-ui"],
+  "include": ["src", "@tt.t/skeleton-ui"],
   "exclude": ["node_modules", "lib"]
 }
