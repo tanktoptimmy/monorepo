@@ -6,6 +6,4 @@ export default {
 
 export const Common = () => <Button label={"Trial and error"} />
 
-
-
 export const CustomLabel = () => <Button label='Select a color' />
